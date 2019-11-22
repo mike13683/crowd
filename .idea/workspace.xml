@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="551b5572-ff45-424d-92b6-19eabfb9bb97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_config.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="342">
-                  <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+                <state relative-caret-position="206">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                 </state>
               </provider>
             </entry>
@@ -39,8 +38,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_site/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-end-line="29" />
+                <state relative-caret-position="186">
+                  <caret line="120" column="38" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -52,7 +51,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../Dragon-Info-Tech/assets/js/source.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="73">
+                <state relative-caret-position="22">
                   <caret line="128" column="16" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="16" />
                 </state>
               </provider>
@@ -71,7 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>right</find>
       <find>dragon</find>
       <find>video</find>
       <find>container</find>
@@ -98,6 +96,7 @@
       <find>left-to-right-slide</find>
       <find>media</find>
       <find>stay</find>
+      <find>right</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -201,12 +200,12 @@
       <workItem from="1572984171049" duration="38020000" />
       <workItem from="1573465573305" duration="4319000" />
       <workItem from="1573757485949" duration="2967000" />
-      <workItem from="1574445232818" duration="3486000" />
+      <workItem from="1574445232818" duration="3804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104074000" />
+    <option name="totallyTimeSpent" value="104392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1396" y="2" width="1918" height="1047" extended-state="0" />
@@ -330,7 +329,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Dragon-Info-Tech/assets/js/source.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
+        <state relative-caret-position="22">
           <caret line="128" column="16" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="16" />
         </state>
       </provider>
@@ -341,13 +340,6 @@
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_site/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="62" lean-forward="true" selection-start-line="28" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -355,10 +347,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="120" column="38" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="206">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
