@@ -1,0 +1,71 @@
+//menu
+@import 'custom/vendors/juice';
+
+//pushes website right of fixed menu
+.wrapper{
+  margin-right: 100px;
+}
+
+.right-side-wrapper{
+  width:100px;
+  height:100%;
+  position: fixed;
+  top:0;
+  right:0;
+}
+
+//moves menu to right
+.navbar, .fixed-top{
+  z-index: 140 !important;
+  position: relative;
+  margin-top:10px;
+  display: block;
+}
+
+div.right-side-menu-button{
+  z-index: 100 !important;
+  display: block;
+  position: relative;
+}
+
+//change burger menu colour
+.fa-bars {
+  color: $primary !important;
+}
+
+//header .right-side-menu-button, .navbar, .navmenu, .navbar-toggler{
+//  z-index: 100 !important;
+//}
+
+//disable burfer border
+.navbar-light .navbar-toggler{
+  border-color: transparent;
+}
+
+.right-side-blurb{
+  top:50%;
+  transform:translateY(-50%);
+  position: absolute;
+  transform:rotate(90deg);
+  width:200px;
+  left:-45%;
+  z-index: 20 !important;
+
+  a{
+    font-size: rem-calc(24px);
+    text-decoration: none;
+  }
+}
+
+.right-side-social-media{
+  bottom:0;
+  position: absolute;
+  transform:rotate(90deg);
+  width:200px;
+  left:-45%;
+  z-index: 20 !important;
+
+  .fab{
+    font-size: rem-calc(24px);
+  }
+}

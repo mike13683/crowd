@@ -1,0 +1,207 @@
+---
+---
+
+@import 'custom/bootstrap-override';
+@import 'bootstrap/bootstrap';
+@import 'custom/includes/header';
+@import 'custom/includes/_social-btn';
+@import 'custom/includes/gallery';
+@import 'custom/includes/footer';
+@import 'custom/includes/hero';
+@import 'custom/includes/menu';
+@import 'custom/helpers/global-classes';
+@import 'custom/helpers/mixins';
+@import 'custom/vendors/juice';
+
+/*
+ * Website Name - Website Name
+ * Date - 9/5/18
+ * Designed by Michael Owens / Dragon Info Tech
+ */
+//googlefont
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+
+//HOMEPAGE
+//intro
+.intro{
+  position: relative;
+  height:calc(100vh - 3rem);
+  overflow: hidden;
+  z-index: -30 !important;
+
+  &__content{
+    @include centerer;
+    text-align: center;
+    color:#fff;
+    @extend .heading-font-heavy;
+    }
+}
+
+//h-campaign blurb
+.h-campaign-media{
+  position: relative;
+  height: 100%;
+}
+.h-campaign-media__content{
+  width: 400px;
+  border-left: 3px solid $primary;
+  position: absolute;
+  top:50px;
+  right:-100px;
+}
+
+//our recent projects
+.our-recent-projects__header h2 {
+  transform:rotate(-90deg);
+  width:410px;
+  height:400px;
+  top:20px;
+  position: absolute;
+  text-align: right;
+}
+
+.our-recent-projects-buttons{
+  position: absolute;
+  bottom: 20px;
+  left:10px;
+
+  button{
+    padding:0;
+    border:0;
+  }
+
+  //arrow
+  img{
+    width:40px;
+    height:40px;
+  }
+}
+
+#h-recent-projects .item{
+  position: relative;
+  height: 100%;
+
+  &__content{
+    position: absolute;
+   @include centerer;
+    color:#fff;
+  }
+
+  h3{
+    @extend .heading-font-heavy;
+    font-size: rem-calc(35px);
+  }
+
+  .item__footer {
+    margin-top: 155px;
+
+    p{
+      margin: 0;
+      font-size: rem-calc(14px);
+    }
+  }
+
+  img{
+    transform-origin: left;
+  }
+
+}
+
+//home projects
+#h-projects .h-campaign-media__content--project{
+  width: 500px;
+  bottom:-60px;
+  top:auto;
+  right:-140px;
+}
+
+//game changer
+.game-changer {
+  position: relative;
+
+
+   p{
+    @extend .heading-font-heavy;
+    position: relative;
+    }
+}
+
+//meet the squad
+.squad__body-buttons{
+  width:200px;
+  position: absolute;
+  bottom:0;
+  left:-100px;
+
+  &__left-box{
+    width:100px;
+    height:100px;
+  }
+
+  &__right-box{
+    width:100px;
+    height:100px;
+  }
+
+  .carousel-control-prev,.carousel-control-next{
+    top:50px;
+    left:50%;
+    width: 100%;
+  }
+}
+
+//Stay Informed
+.stay-informed{
+  position: relative;
+  height: 100%;
+
+  &__content{
+    transform:rotate(-90deg);
+    width:410px;
+    height:400px;
+    top:20px;
+    position: absolute;
+    text-align: right;
+
+  }
+
+  h2{
+    @extend .heading-font-heavy;
+  }
+}
+
+.media-box{
+  position: relative;
+  height:100%;
+
+  span{
+    top:0;
+    left:0;
+    position: absolute;
+    @extend .text-primary;
+    padding:10px;
+    @extend .heading-font-light;
+  }
+
+  &__header{
+    top:50%;
+    left:10%;
+    transform: translateX(-10%) translateY(-50%);
+    position: absolute;
+    padding: 20px;
+    color: #fff;
+
+    &__text-small h2{
+      font-size: 1.5rem;
+    }
+  }
+
+  &__footer p{
+    bottom:0;
+    right:0;
+    @extend .heading-font-light;
+    position: absolute;
+    padding: 10px;
+    color: #fff;
+  }
+}

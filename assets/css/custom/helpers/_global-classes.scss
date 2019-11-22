@@ -1,0 +1,47 @@
+@import 'custom/vendors/juice';
+
+//corrects padding issue on exploror 11
+//html,body
+//{
+//
+//}
+//Main header
+@import url('https://fonts.googleapis.com/css?family=Carter+One&display=swap');
+
+//Secendary header
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
+.heading-font-heavy{
+  font-family: 'Carter One', cursive;
+  font-weight:700;
+  font-size: rem-calc(40px);
+}
+
+.heading-font-light{
+  font-family: 'Amatic SC', cursive;
+  font-weight:300;
+  font-size: rem-calc(40px);
+}
+
+h2{
+  font-family: 'Carter One', cursive !important;
+  font-weight:700 !important;
+  font-size: rem-calc(32px);
+}
+
+p{
+  font-size: rem-calc(22px);
+}
+//
+//.colour-primary{
+// color: $primary;
+//}
+
+.dark-overlay {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+}
