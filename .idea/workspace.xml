@@ -18,11 +18,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5595238">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/_config.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="291">
-                  <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+                  <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -36,7 +36,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/_site/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="339">
@@ -105,7 +105,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/_site" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,8 +122,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/assets/js/source.js" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_site/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -202,12 +202,12 @@
       <workItem from="1572984171049" duration="38020000" />
       <workItem from="1573465573305" duration="4319000" />
       <workItem from="1573757485949" duration="2967000" />
-      <workItem from="1574445232818" duration="5292000" />
+      <workItem from="1574445232818" duration="5343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105880000" />
+    <option name="totallyTimeSpent" value="105931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1396" y="2" width="1918" height="1047" extended-state="0" />
@@ -349,17 +349,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="101" column="52" lean-forward="true" selection-start-line="101" selection-start-column="52" selection-end-line="101" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
         </state>
       </provider>
     </entry>
